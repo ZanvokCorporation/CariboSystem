@@ -7,7 +7,7 @@ while command != "quit":
 		print("Version: 5.01")
 		print("Copyright 2021 @ Zanvok Corporation")
 	elif command == "command --list":
-		print("\n Help \n About \n Status \n Exit \n Calc \n Clear or clear or Clr \n")
+		print("\n Help \n About \n Status \n Exit \n Calc \n cls or cls or Clr \n")
 	elif "release" in command:
 		release =""
 		while release != "quit":
@@ -39,7 +39,7 @@ while command != "quit":
 	elif command == "bsod":
 		from bsod import *
 		break
-	elif command == "clear" or command == "clr" or command == "clear":
+	elif command == "cls" or command == "clr" or command == "cls":
 		import multiprocessing
 		import time
 		import os
@@ -67,7 +67,7 @@ while command != "quit":
 				# p.kill()
 
 				p.join()
-		os.system('clear')
+		os.system('cls')
 	elif command == "":
 		print("")
 	else:

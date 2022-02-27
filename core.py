@@ -14,7 +14,7 @@ if kernel_version == float(5.04):
         user_val = user
         command = ""
         from thanks import *
-        os.system('clear')
+        os.system('cls')
         print("")
         print("Hi!! " + user + " Welcome to CariboOS 5")
         print("Version: 5.01")
@@ -28,7 +28,7 @@ if kernel_version == float(5.04):
                         print("Version: 5.01")
                         print("Copyright 2021 @ Zanvok Corporation")
                 elif command == "command --list":
-                        print("\n Help \n About \n Status \n Exit \n Calc \n Clear or clear or Clr \n")
+                        print("\n Help \n About \n Status \n Exit \n Calc \n cls or cls or Clr \n")
                 elif "release" in command:
                         release =""
                         while release != "quit":
@@ -62,7 +62,7 @@ if kernel_version == float(5.04):
                         break
                 elif command == "thanks":
                         from thanks import *
-                elif command == "clear" or command == "clr" or command == "clear":
+                elif command == "cls" or command == "clr" or command == "cls":
                         import multiprocessing
                         import time
                         import os
@@ -90,7 +90,7 @@ if kernel_version == float(5.04):
                                         # p.kill()
 
                                         p.join()
-                        os.system('clear')
+                        os.system('cls')
                 elif command == "":
                         print("")
                 else:

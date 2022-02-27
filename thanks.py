@@ -55,7 +55,7 @@ if __name__ == '__main__':
         # p.kill()
 
         p.join()
-os.system('clear')
+os.system('cls')
 print("Well we even want you all to try out next versions of CariboSystem!!")
 print("")
 print("You might think what is CariboSystem?? A new OS??")
@@ -88,7 +88,7 @@ if __name__ == '__main__':
         # p.kill()
 
         p.join()
-os.system('clear')
+os.system('cls')
 print("Keep it confidential.. Let's surprise the public..")
 import multiprocessing
 import time
@@ -117,5 +117,5 @@ if __name__ == '__main__':
         # p.kill()
 
         p.join()
-os.system('clear')
+os.system('cls')
 from kernel import *

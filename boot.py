@@ -53,5 +53,5 @@ if __name__ == '__main__':
         # p.kill()
 
         p.join()
-os.system('clear')
+os.system('cls')
 from core import *

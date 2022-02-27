@@ -1,4 +1,3 @@
-from info import *
 import os
 import multiprocessing
 import time
@@ -6,7 +5,7 @@ import pyfiglet
 from pyfiglet import Figlet
 f = Figlet(font='slant')
 
-os.system('clear')
+os.system('cls')
 print("===============================================================================================")
 result = pyfiglet.figlet_format("Flix ", font = "isometric1" )
 print(result)
@@ -55,7 +54,7 @@ if __name__ == '__main__':
 
         p.join()
 
-os.system('clear')
+os.system('cls')
 print("Found CariboOS..")
 import multiprocessing
 import time
@@ -84,7 +83,7 @@ if __name__ == '__main__':
         # p.kill()
 
         p.join()
-os.system('clear')
+os.system('cls')
 print("Booting into CariboOS..")
 import multiprocessing
 import time
@@ -113,8 +112,8 @@ if __name__ == '__main__':
         # p.kill()
 
         p.join()
-os.system('clear')
-kernel_version = float(5.04)
+os.system('cls')
+kernel_version = float(6.01)
 from boot import *
 
 
