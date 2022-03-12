@@ -6,6 +6,13 @@ print()
 ver = 6.0
 r_type = "BETA"
 print()
+print("""
+    ╭━╮╱╱╱╱╭┳╮╱╱╭━━╮╱╭━┳╮
+    ┃╭╋━╮╭┳╋┫╰┳━┫━━╋┳┫━┫╰┳━┳━━╮
+    ┃╰┫╋╰┫╭┫┃╋┃╋┣━━┃┃┣━┃╭┫┻┫┃┃┃
+    ╰━┻━━┻╯╰┻━┻━┻━━╋╮┣━┻━┻━┻┻┻╯
+    ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━╯
+    """)
 
 core = ""
 if sys.platform == "win32":
@@ -15,16 +22,18 @@ else:
     os.system('clear')
 
 while core != "quit" or core != "exit":
-    print("""
+    
+    core = input("CariboSystem > ")
+
+    if core == "ver":
+        print()
+        print("""
     ╭━╮╱╱╱╱╭┳╮╱╱╭━━╮╱╭━┳╮
     ┃╭╋━╮╭┳╋┫╰┳━┫━━╋┳┫━┫╰┳━┳━━╮
     ┃╰┫╋╰┫╭┫┃╋┃╋┣━━┃┃┣━┃╭┫┻┫┃┃┃
     ╰━┻━━┻╯╰┻━┻━┻━━╋╮┣━┻━┻━┻┻┻╯
     ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━╯
-    """)
-    core = input("CariboSystem > ")
-
-    if core == "ver":
+        """)
         print()
         print("CariboSystem")
         print("6.04")
@@ -32,6 +41,14 @@ while core != "quit" or core != "exit":
         print()
 
     elif core == "ver core":
+        print()
+        print("""
+    ╭━╮╱╱╱╱╭┳╮╱╱╭━━╮╱╭━┳╮
+    ┃╭╋━╮╭┳╋┫╰┳━┫━━╋┳┫━┫╰┳━┳━━╮
+    ┃╰┫╋╰┫╭┫┃╋┃╋┣━━┃┃┣━┃╭┫┻┫┃┃┃
+    ╰━┻━━┻╯╰┻━┻━┻━━╋╮┣━┻━┻━┻┻┻╯
+    ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━╯
+        """)
         print()
         print("Core(CariboSystem6).6.0Beta")
         print()
