@@ -17,11 +17,13 @@ CariboSystem is a system developed in Python3, hence Python3 is a prerequisite t
 * ZSharpPL (Optional)
 
 ### Starting CariboSystem 6
-To start CariboSystem in Windows:
+* To start CariboSystem in Windows:
 `python caribosystem.py` or Double clicking the CariboSystem.py File
-To start CariboSystem in Linux/Unix(macOS)
+
+* To start CariboSystem in Linux/Unix(macOS)
 `python3 caribosystem.py`
-You can access further help by typing `help` command in CariboSystem
+
+* You can access further help by typing `help` command in CariboSystem
 
 ## Feedback and Complaints
 You can visit this website [https://sites.google.com/view/zanvokhelp] to give feedbacks or to report a problem.
