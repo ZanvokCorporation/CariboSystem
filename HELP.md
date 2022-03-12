@@ -1,5 +1,5 @@
 # CariboSystem 6 Users' Guide
-user Manual for CariboSystem
+User Manual for CariboSystem
 
 ## Getting Started
 ### Installing Prerequisites
