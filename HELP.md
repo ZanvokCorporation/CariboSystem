@@ -19,10 +19,10 @@ CariboSystem is a system developed in Python3, hence Python3 is a prerequisite t
 
 ### Starting CariboSystem 6
 * To start CariboSystem in Windows:
-`python caribosystem.py` or Double clicking the CariboSystem.py File
+`python setup.caribosystem.py` or Double clicking the setup.caribosystem.py File
 
 * To start CariboSystem in Linux/Unix(macOS)
-`python3 caribosystem.py`
+`python3 setup.caribosystem.py`
 
 * You can access further help by typing `help` command in CariboSystem
 

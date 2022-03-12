@@ -15,8 +15,6 @@ v6.04
         * The new code uses `os, sys` and `subprocess` modules
 
         * For example, for clearing the screen, the command in Windows is `cls`, whereas the command in Linux/Unix is `clear`. So CariboSystem 6 uses `sys.platform` to identify the system as `win32`(Windows) or `darwin`(macOS) or `xdg-open`(Linux)
-        
-    * Added a new Text Editor [BETA]
 
 * UBS2022312-CS (Security Update for CarboSystem)
     * Fixed security issue with internal data file
