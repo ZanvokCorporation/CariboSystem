@@ -24,7 +24,21 @@ CariboSystem is a system developed in Python3, hence Python3 is a prerequisite t
 * To start CariboSystem in Linux/Unix(macOS)
 `python3 setup.caribosystem.py`
 
-* You can access further help by typing `help` command in CariboSystem
+* After Setting up CariboSystem, relaunch the setup and enter `2` in the prompt, log in with your password and you are ready to use CariboSystem
+
+## CariboSystem Commands
+The basic commands to use CariboSystem are as follows:
+* `calc`
+* `ver`
+* `ver core`
+* `cmd`
+* `bsod`
+* `help`
+* `readme`
+* `cls`(In Windows)
+* `clear`(In Linux)
+* `app`
+* `app --manage`
 
 ## Feedback and Complaints
 You can visit this website [https://sites.google.com/view/zanvokhelp] to give feedbacks or to report a problem.
