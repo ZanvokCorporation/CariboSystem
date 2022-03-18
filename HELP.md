@@ -39,6 +39,7 @@ The basic commands to use CariboSystem are as follows:
 * `clear`(In Linux)
 * `app`
 * `app --manage`
+* `netget`
 
 ## Feedback and Complaints
 You can visit this website [https://sites.google.com/view/zanvokhelp] to give feedbacks or to report a problem.

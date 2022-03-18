@@ -3,8 +3,8 @@ import sys
 import subprocess
 
 print()
-ver = 6.05
-r_type = "BETA"
+ver = 6.1
+r_type = "Public Release"
 print()
 print("""
     ╭━╮╱╱╱╱╭┳╮╱╱╭━━╮╱╭━┳╮
@@ -38,7 +38,7 @@ while core != "quit" or core != "exit":
         """)
         print()
         print("CariboSystem")
-        print("6.05")
+        print("6.1")
         print("Zanvok Corporation")
         print()
 
@@ -52,7 +52,7 @@ while core != "quit" or core != "exit":
     ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━╯
         """)
         print()
-        print("Core(CariboSystem6).6.0Beta")
+        print("Core(CariboSystem6).6.1Core")
         print()
 
     elif core == 'calc':
@@ -63,6 +63,14 @@ while core != "quit" or core != "exit":
         else:
             opener = "open" if sys.platform == "darwin" else "xdg-open"
             os.system('python3 calc.caribosystem.py')
+
+    elif core == "user":
+        if sys.platform == "win32":
+            os.system('python users.caribosystem.py')
+
+        else:
+            opener = "open" if sys.platform == "darwin" else "xdg-open"
+            os.system('python3 users.caribosystem.py')
 
     elif core == "cmd":
         print("Starting Zanvok PY-DOS Subsystem...")
@@ -129,6 +137,20 @@ while core != "quit" or core != "exit":
         print("GoodBye!")
         print()
         break
+
+    elif core == "netget":
+        print("NetGet for CariboSystem")
+        print()
+        link = input("Enter Download Link: ")
+
+        if sys.platform == "win32":
+            netget = "python netget.py " + link + " C:\CariboSystem\Downloads"
+            os.system(netget)
+
+        else:
+            opener = "open" if sys.platform == "darwin" else "xdg-open"
+            netget = "python3 netget.py " + link + " Downloads"
+            os.system(netget)
 
     elif core == "bsod":
 

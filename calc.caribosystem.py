@@ -49,9 +49,9 @@ while calc != "quit" or calc != "exit":
     elif calc == "ver" or calc == "version":
         ver = 6.04
         os_release = "CariboSystem6"
-        r_ty = "Beta"
+        r_ty = "Public Release"
         print()
-        print("Calc(CariboSystem6).6.0BETA")
+        print("Calc(CariboSystem6).6.1Core")
         print()
 
     else:

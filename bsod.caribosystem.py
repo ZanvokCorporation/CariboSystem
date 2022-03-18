@@ -45,7 +45,7 @@ print(colored("*   An error occured in CariboSystem.                            
 print(colored("*    1.Try restarting CariboSystem                                                         *                                   " , 'white' , 'on_blue'))
 print(colored("*    2.If this error persists again raise a complaint in https://zanvoksupport.simdif.com/ *                                   " , 'white' , 'on_blue'))
 print(colored("********************************************************************************************                                   " , 'white' , 'on_blue'))
-print(colored("* Error Code x1101 Preview                                                                 *                                   " , 'white' , 'on_blue'))
+print(colored("* Error Code x1101                                                                         *                                   " , 'white' , 'on_blue'))
 print(colored("--------------------------------------------------------------------------------------------                                   " , 'white' , 'on_blue'))
 print(colored("Terminating CariboSystem                                                                                                       " , 'white' , 'on_blue'))
 bsod = input (colored("Press any key to terminate...                                                                                          " , 'white' , 'on_blue'))
