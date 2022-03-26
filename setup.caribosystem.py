@@ -7,7 +7,7 @@ print("""
     ╭━╮╱╱╱╱╭┳╮╱╱╭━━╮╱╭━┳╮
     ┃╭╋━╮╭┳╋┫╰┳━┫━━╋┳┫━┫╰┳━┳━━╮
     ┃╰┫╋╰┫╭┫┃╋┃╋┣━━┃┃┣━┃╭┫┻┫┃┃┃
-    ╰━┻━━┻╯╰┻━┻━┻━━╋╮┣━┻━┻━┻┻┻╯
+    ╰━┻━━┻╯╰┻━┻━┻━━╋╮┣━┻━┻━┻┻┻╯  SETUP
     ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━╯
 """)
 print("""
@@ -43,22 +43,12 @@ while select != "quit" or select != "exit":
         break
 
     elif select == "2":
-        print()
-        f = open("user.dat", 'r')
-        read = f.read()
-        user_log = input("Enter password of user " + read + " : ")
-        v = open("password.dat", 'r')
-        verify = v.read()
-        if user_log == verify:
-            if sys.platform == "win32":
-                os.system('python core.caribosystem.py')
-                break
-            else:
-                opener = "open" if sys.platform == "darwin" else "xdg-open"
-                os.system('python3 core.caribosystem.py')
-                break
+        if sys.platform == "win32":
+            os.system('python core.caribosystem.py')
+            sys.exit()
         else:
-            print("Invalid Password..!!")
+            os.system('python3 core.caribosystem.py')
+            sys.exit()
 
     elif select == "3" or select == "quit" or select == "exit":
         break

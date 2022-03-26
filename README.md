@@ -1,8 +1,8 @@
 # Zanvok CariboSystem 6
-v6.05
+v6.11
 
 ## What's new in CariboSystem 6 ?
-* CUB2022317-CS (Update for CariboSystem 6.04), features new features :
+* CUB2022331-CS (Update for CariboSystem 6.0.5), features new features :
     * New App Startup
 
     * CariboSystem SDK 6 [BETA]
@@ -18,13 +18,17 @@ v6.05
     
     * New PY-DOS 8 Integration
 
+    * New Recovery Tool (Not included with this package)
+
     * New Core Mode Execution
 
     * Introducing new BSOD (Blue Screen Of Death)
 
     * New NetGet Download Utility
 
-* UBS2022317-CS (Security Update for CarboSystem)
+    * New Calculator App
+
+* UBS2022330-CS (Security Update for CarboSystem)
     * Fixed security issue with internal user data files
 
 ## Developers
@@ -35,5 +39,6 @@ v6.05
 * Siddharth Sajeev
 * Jishnu Harikumar
 * Jatin Raj
+* Sunil MS
 
 Copyright (c) Zanvok Corporation 2022
